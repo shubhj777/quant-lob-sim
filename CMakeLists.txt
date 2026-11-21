@@ -29,3 +29,6 @@ target_link_libraries(lob_tests PRIVATE lob_engine GTest::gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(lob_tests)
+
+add_executable(lob_bench benchmarks/bench_order_book.cpp)
+target_link_libraries(lob_bench PRIVATE lob_engine)
