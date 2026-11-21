@@ -1,5 +1,0 @@
-if(EXISTS "/Users/shubhj_777/quant-lob-sim/build/lob_tests_e3b0c442_tests.cmake")
-  include("/Users/shubhj_777/quant-lob-sim/build/lob_tests_e3b0c442_tests.cmake")
-else()
-  add_test(lob_tests_NOT_BUILT lob_tests_NOT_BUILT)
-endif()
