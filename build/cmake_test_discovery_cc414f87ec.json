@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "SetupTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "TypesCompile",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Start testing: Nov 22 01:02 IST
+----------------------------------------------------------
+1/1 Testing: SetupTest.TypesCompile
+1/1 Test: SetupTest.TypesCompile
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=SetupTest.TypesCompile" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"SetupTest.TypesCompile" start time: Nov 22 01:02 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SetupTest.TypesCompile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SetupTest
+[ RUN      ] SetupTest.TypesCompile
+[       OK ] SetupTest.TypesCompile (0 ms)
+[----------] 1 test from SetupTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"SetupTest.TypesCompile" end time: Nov 22 01:02 IST
+"SetupTest.TypesCompile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 22 01:02 IST
