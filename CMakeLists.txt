@@ -32,3 +32,6 @@ gtest_discover_tests(lob_tests)
 
 add_executable(lob_bench benchmarks/bench_order_book.cpp)
 target_link_libraries(lob_bench PRIVATE lob_engine)
+
+add_executable(lob_sim src/sim_main.cpp)
+target_link_libraries(lob_sim PRIVATE lob_engine)
