@@ -1,70 +1,171 @@
 {
-  "tests": 12,
+  "tests": 25,
   "name": "AllTests",
   "testsuites": [
     {
-      "name": "NaiveOrderBookTest",
+      "name": "OrderBookTest\/0",
       "tests": 12,
       "testsuite": [
         {
           "name": "EmptyBookDefaults",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 6
+          "line": 18
         },
         {
           "name": "RestingOrdersTrackBestPricesAndVolume",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 15
+          "line": 26
         },
         {
           "name": "ExactLimitMatchExecutesAtMakerPrice",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 30
+          "line": 40
         },
         {
           "name": "PriceTimePriorityFIFO",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 44
+          "line": 53
         },
         {
           "name": "PartialFillAndRestRemainder",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 64
+          "line": 72
         },
         {
           "name": "MarketOrderSweepsLevelsWithoutResting",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 76
+          "line": 83
         },
         {
           "name": "IOCFillsAvailableAndDiscardsRest",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 89
+          "line": 95
         },
         {
           "name": "FOKAllOrNothing",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 99
+          "line": 104
         },
         {
           "name": "CancelUpdatesBestPriceAndHandlesMissing",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 114
+          "line": 118
         },
         {
           "name": "ModifyQtyDownPreservesTimePriority",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 125
+          "line": 128
         },
         {
           "name": "ModifyQtyUpLosesTimePriority",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 138
+          "line": 140
         },
         {
           "name": "ModifyPriceAcrossSpreadGeneratesTrades",
+          "type_param": "lob::NaiveOrderBook",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 150
+          "line": 151
+        }
+      ]
+    },
+    {
+      "name": "OrderBookTest\/1",
+      "tests": 12,
+      "testsuite": [
+        {
+          "name": "EmptyBookDefaults",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 18
+        },
+        {
+          "name": "RestingOrdersTrackBestPricesAndVolume",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 26
+        },
+        {
+          "name": "ExactLimitMatchExecutesAtMakerPrice",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 40
+        },
+        {
+          "name": "PriceTimePriorityFIFO",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 53
+        },
+        {
+          "name": "PartialFillAndRestRemainder",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 72
+        },
+        {
+          "name": "MarketOrderSweepsLevelsWithoutResting",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 83
+        },
+        {
+          "name": "IOCFillsAvailableAndDiscardsRest",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 95
+        },
+        {
+          "name": "FOKAllOrNothing",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 104
+        },
+        {
+          "name": "CancelUpdatesBestPriceAndHandlesMissing",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 118
+        },
+        {
+          "name": "ModifyQtyDownPreservesTimePriority",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 128
+        },
+        {
+          "name": "ModifyQtyUpLosesTimePriority",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 140
+        },
+        {
+          "name": "ModifyPriceAcrossSpreadGeneratesTrades",
+          "type_param": "lob::FastOrderBook",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 151
+        }
+      ]
+    },
+    {
+      "name": "DifferentialFuzzTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FastMatchesNaiveAcross200kEvents",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 162
         }
       ]
     }

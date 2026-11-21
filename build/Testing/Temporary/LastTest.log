@@ -1,20 +1,20 @@
-Start testing: Nov 22 01:09 IST
+Start testing: Nov 22 01:14 IST
 ----------------------------------------------------------
-1/12 Testing: NaiveOrderBookTest.EmptyBookDefaults
-1/12 Test: NaiveOrderBookTest.EmptyBookDefaults
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.EmptyBookDefaults" "--gtest_also_run_disabled_tests"
+1/25 Testing: OrderBookTest.EmptyBookDefaults<lob::NaiveOrderBook>
+1/25 Test: OrderBookTest.EmptyBookDefaults<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.EmptyBookDefaults" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.EmptyBookDefaults" start time: Nov 22 01:09 IST
+"OrderBookTest.EmptyBookDefaults<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.EmptyBookDefaults
+Note: Google Test filter = OrderBookTest/0.EmptyBookDefaults
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.EmptyBookDefaults
-[       OK ] NaiveOrderBookTest.EmptyBookDefaults (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.EmptyBookDefaults
+[       OK ] OrderBookTest/0.EmptyBookDefaults (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,25 +23,25 @@ Note: Google Test filter = NaiveOrderBookTest.EmptyBookDefaults
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.EmptyBookDefaults" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.EmptyBookDefaults" time elapsed: 00:00:00
+"OrderBookTest.EmptyBookDefaults<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.EmptyBookDefaults<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/12 Testing: NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
-2/12 Test: NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" "--gtest_also_run_disabled_tests"
+2/25 Testing: OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::NaiveOrderBook>
+2/25 Test: OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.RestingOrdersTrackBestPricesAndVolume" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" start time: Nov 22 01:09 IST
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
+Note: Google Test filter = OrderBookTest/0.RestingOrdersTrackBestPricesAndVolume
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
-[       OK ] NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.RestingOrdersTrackBestPricesAndVolume
+[       OK ] OrderBookTest/0.RestingOrdersTrackBestPricesAndVolume (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -50,25 +50,25 @@ Note: Google Test filter = NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVol
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" time elapsed: 00:00:00
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/12 Testing: NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
-3/12 Test: NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" "--gtest_also_run_disabled_tests"
+3/25 Testing: OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::NaiveOrderBook>
+3/25 Test: OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.ExactLimitMatchExecutesAtMakerPrice" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" start time: Nov 22 01:09 IST
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
+Note: Google Test filter = OrderBookTest/0.ExactLimitMatchExecutesAtMakerPrice
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
-[       OK ] NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.ExactLimitMatchExecutesAtMakerPrice
+[       OK ] OrderBookTest/0.ExactLimitMatchExecutesAtMakerPrice (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -77,25 +77,25 @@ Note: Google Test filter = NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPric
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" time elapsed: 00:00:00
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/12 Testing: NaiveOrderBookTest.PriceTimePriorityFIFO
-4/12 Test: NaiveOrderBookTest.PriceTimePriorityFIFO
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.PriceTimePriorityFIFO" "--gtest_also_run_disabled_tests"
+4/25 Testing: OrderBookTest.PriceTimePriorityFIFO<lob::NaiveOrderBook>
+4/25 Test: OrderBookTest.PriceTimePriorityFIFO<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.PriceTimePriorityFIFO" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.PriceTimePriorityFIFO" start time: Nov 22 01:09 IST
+"OrderBookTest.PriceTimePriorityFIFO<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.PriceTimePriorityFIFO
+Note: Google Test filter = OrderBookTest/0.PriceTimePriorityFIFO
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.PriceTimePriorityFIFO
-[       OK ] NaiveOrderBookTest.PriceTimePriorityFIFO (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.PriceTimePriorityFIFO
+[       OK ] OrderBookTest/0.PriceTimePriorityFIFO (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -104,25 +104,25 @@ Note: Google Test filter = NaiveOrderBookTest.PriceTimePriorityFIFO
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.PriceTimePriorityFIFO" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.PriceTimePriorityFIFO" time elapsed: 00:00:00
+"OrderBookTest.PriceTimePriorityFIFO<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.PriceTimePriorityFIFO<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/12 Testing: NaiveOrderBookTest.PartialFillAndRestRemainder
-5/12 Test: NaiveOrderBookTest.PartialFillAndRestRemainder
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.PartialFillAndRestRemainder" "--gtest_also_run_disabled_tests"
+5/25 Testing: OrderBookTest.PartialFillAndRestRemainder<lob::NaiveOrderBook>
+5/25 Test: OrderBookTest.PartialFillAndRestRemainder<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.PartialFillAndRestRemainder" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.PartialFillAndRestRemainder" start time: Nov 22 01:09 IST
+"OrderBookTest.PartialFillAndRestRemainder<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.PartialFillAndRestRemainder
+Note: Google Test filter = OrderBookTest/0.PartialFillAndRestRemainder
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.PartialFillAndRestRemainder
-[       OK ] NaiveOrderBookTest.PartialFillAndRestRemainder (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.PartialFillAndRestRemainder
+[       OK ] OrderBookTest/0.PartialFillAndRestRemainder (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -131,25 +131,25 @@ Note: Google Test filter = NaiveOrderBookTest.PartialFillAndRestRemainder
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.PartialFillAndRestRemainder" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.PartialFillAndRestRemainder" time elapsed: 00:00:00
+"OrderBookTest.PartialFillAndRestRemainder<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.PartialFillAndRestRemainder<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/12 Testing: NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
-6/12 Test: NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" "--gtest_also_run_disabled_tests"
+6/25 Testing: OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::NaiveOrderBook>
+6/25 Test: OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.MarketOrderSweepsLevelsWithoutResting" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" start time: Nov 22 01:09 IST
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
+Note: Google Test filter = OrderBookTest/0.MarketOrderSweepsLevelsWithoutResting
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
-[       OK ] NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.MarketOrderSweepsLevelsWithoutResting
+[       OK ] OrderBookTest/0.MarketOrderSweepsLevelsWithoutResting (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -158,25 +158,25 @@ Note: Google Test filter = NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutRest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" time elapsed: 00:00:00
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/12 Testing: NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
-7/12 Test: NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" "--gtest_also_run_disabled_tests"
+7/25 Testing: OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::NaiveOrderBook>
+7/25 Test: OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.IOCFillsAvailableAndDiscardsRest" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" start time: Nov 22 01:09 IST
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
+Note: Google Test filter = OrderBookTest/0.IOCFillsAvailableAndDiscardsRest
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
-[       OK ] NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.IOCFillsAvailableAndDiscardsRest
+[       OK ] OrderBookTest/0.IOCFillsAvailableAndDiscardsRest (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -185,25 +185,25 @@ Note: Google Test filter = NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" time elapsed: 00:00:00
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/12 Testing: NaiveOrderBookTest.FOKAllOrNothing
-8/12 Test: NaiveOrderBookTest.FOKAllOrNothing
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.FOKAllOrNothing" "--gtest_also_run_disabled_tests"
+8/25 Testing: OrderBookTest.FOKAllOrNothing<lob::NaiveOrderBook>
+8/25 Test: OrderBookTest.FOKAllOrNothing<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.FOKAllOrNothing" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.FOKAllOrNothing" start time: Nov 22 01:09 IST
+"OrderBookTest.FOKAllOrNothing<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.FOKAllOrNothing
+Note: Google Test filter = OrderBookTest/0.FOKAllOrNothing
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.FOKAllOrNothing
-[       OK ] NaiveOrderBookTest.FOKAllOrNothing (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.FOKAllOrNothing
+[       OK ] OrderBookTest/0.FOKAllOrNothing (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -212,25 +212,25 @@ Note: Google Test filter = NaiveOrderBookTest.FOKAllOrNothing
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.FOKAllOrNothing" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.FOKAllOrNothing" time elapsed: 00:00:00
+"OrderBookTest.FOKAllOrNothing<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.FOKAllOrNothing<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/12 Testing: NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
-9/12 Test: NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" "--gtest_also_run_disabled_tests"
+9/25 Testing: OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::NaiveOrderBook>
+9/25 Test: OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.CancelUpdatesBestPriceAndHandlesMissing" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" start time: Nov 22 01:09 IST
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
+Note: Google Test filter = OrderBookTest/0.CancelUpdatesBestPriceAndHandlesMissing
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
-[       OK ] NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.CancelUpdatesBestPriceAndHandlesMissing
+[       OK ] OrderBookTest/0.CancelUpdatesBestPriceAndHandlesMissing (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -239,25 +239,25 @@ Note: Google Test filter = NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMi
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" time elapsed: 00:00:00
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/12 Testing: NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
-10/12 Test: NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" "--gtest_also_run_disabled_tests"
+10/25 Testing: OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::NaiveOrderBook>
+10/25 Test: OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.ModifyQtyDownPreservesTimePriority" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" start time: Nov 22 01:09 IST
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
+Note: Google Test filter = OrderBookTest/0.ModifyQtyDownPreservesTimePriority
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
-[       OK ] NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.ModifyQtyDownPreservesTimePriority
+[       OK ] OrderBookTest/0.ModifyQtyDownPreservesTimePriority (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -266,25 +266,25 @@ Note: Google Test filter = NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" time elapsed: 00:00:00
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/12 Testing: NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
-11/12 Test: NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" "--gtest_also_run_disabled_tests"
+11/25 Testing: OrderBookTest.ModifyQtyUpLosesTimePriority<lob::NaiveOrderBook>
+11/25 Test: OrderBookTest.ModifyQtyUpLosesTimePriority<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.ModifyQtyUpLosesTimePriority" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" start time: Nov 22 01:09 IST
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
+Note: Google Test filter = OrderBookTest/0.ModifyQtyUpLosesTimePriority
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
-[       OK ] NaiveOrderBookTest.ModifyQtyUpLosesTimePriority (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.ModifyQtyUpLosesTimePriority
+[       OK ] OrderBookTest/0.ModifyQtyUpLosesTimePriority (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -293,25 +293,25 @@ Note: Google Test filter = NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" time elapsed: 00:00:00
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/12 Testing: NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
-12/12 Test: NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" "--gtest_also_run_disabled_tests"
+12/25 Testing: OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::NaiveOrderBook>
+12/25 Test: OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::NaiveOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/0.ModifyPriceAcrossSpreadGeneratesTrades" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" start time: Nov 22 01:09 IST
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::NaiveOrderBook>" start time: Nov 22 01:14 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
+Note: Google Test filter = OrderBookTest/0.ModifyPriceAcrossSpreadGeneratesTrades
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from NaiveOrderBookTest
-[ RUN      ] NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
-[       OK ] NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades (0 ms)
-[----------] 1 test from NaiveOrderBookTest (0 ms total)
+[----------] 1 test from OrderBookTest/0, where TypeParam = lob::NaiveOrderBook
+[ RUN      ] OrderBookTest/0.ModifyPriceAcrossSpreadGeneratesTrades
+[       OK ] OrderBookTest/0.ModifyPriceAcrossSpreadGeneratesTrades (0 ms)
+[----------] 1 test from OrderBookTest/0 (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -320,8 +320,359 @@ Note: Google Test filter = NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTr
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" end time: Nov 22 01:09 IST
-"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" time elapsed: 00:00:00
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::NaiveOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::NaiveOrderBook>" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 22 01:09 IST
+13/25 Testing: OrderBookTest.EmptyBookDefaults<lob::FastOrderBook>
+13/25 Test: OrderBookTest.EmptyBookDefaults<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.EmptyBookDefaults" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.EmptyBookDefaults<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.EmptyBookDefaults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.EmptyBookDefaults
+[       OK ] OrderBookTest/1.EmptyBookDefaults (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.EmptyBookDefaults<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.EmptyBookDefaults<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/25 Testing: OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::FastOrderBook>
+14/25 Test: OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.RestingOrdersTrackBestPricesAndVolume" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.RestingOrdersTrackBestPricesAndVolume
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.RestingOrdersTrackBestPricesAndVolume
+[       OK ] OrderBookTest/1.RestingOrdersTrackBestPricesAndVolume (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.RestingOrdersTrackBestPricesAndVolume<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/25 Testing: OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::FastOrderBook>
+15/25 Test: OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.ExactLimitMatchExecutesAtMakerPrice" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.ExactLimitMatchExecutesAtMakerPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.ExactLimitMatchExecutesAtMakerPrice
+[       OK ] OrderBookTest/1.ExactLimitMatchExecutesAtMakerPrice (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ExactLimitMatchExecutesAtMakerPrice<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/25 Testing: OrderBookTest.PriceTimePriorityFIFO<lob::FastOrderBook>
+16/25 Test: OrderBookTest.PriceTimePriorityFIFO<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.PriceTimePriorityFIFO" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.PriceTimePriorityFIFO<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.PriceTimePriorityFIFO
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.PriceTimePriorityFIFO
+[       OK ] OrderBookTest/1.PriceTimePriorityFIFO (2 ms)
+[----------] 1 test from OrderBookTest/1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.PriceTimePriorityFIFO<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.PriceTimePriorityFIFO<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/25 Testing: OrderBookTest.PartialFillAndRestRemainder<lob::FastOrderBook>
+17/25 Test: OrderBookTest.PartialFillAndRestRemainder<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.PartialFillAndRestRemainder" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.PartialFillAndRestRemainder<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.PartialFillAndRestRemainder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.PartialFillAndRestRemainder
+[       OK ] OrderBookTest/1.PartialFillAndRestRemainder (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.PartialFillAndRestRemainder<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.PartialFillAndRestRemainder<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/25 Testing: OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::FastOrderBook>
+18/25 Test: OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.MarketOrderSweepsLevelsWithoutResting" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.MarketOrderSweepsLevelsWithoutResting
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.MarketOrderSweepsLevelsWithoutResting
+[       OK ] OrderBookTest/1.MarketOrderSweepsLevelsWithoutResting (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.MarketOrderSweepsLevelsWithoutResting<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/25 Testing: OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::FastOrderBook>
+19/25 Test: OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.IOCFillsAvailableAndDiscardsRest" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.IOCFillsAvailableAndDiscardsRest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.IOCFillsAvailableAndDiscardsRest
+[       OK ] OrderBookTest/1.IOCFillsAvailableAndDiscardsRest (2 ms)
+[----------] 1 test from OrderBookTest/1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.IOCFillsAvailableAndDiscardsRest<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/25 Testing: OrderBookTest.FOKAllOrNothing<lob::FastOrderBook>
+20/25 Test: OrderBookTest.FOKAllOrNothing<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.FOKAllOrNothing" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.FOKAllOrNothing<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.FOKAllOrNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.FOKAllOrNothing
+[       OK ] OrderBookTest/1.FOKAllOrNothing (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.FOKAllOrNothing<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.FOKAllOrNothing<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/25 Testing: OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::FastOrderBook>
+21/25 Test: OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.CancelUpdatesBestPriceAndHandlesMissing" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.CancelUpdatesBestPriceAndHandlesMissing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.CancelUpdatesBestPriceAndHandlesMissing
+[       OK ] OrderBookTest/1.CancelUpdatesBestPriceAndHandlesMissing (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.CancelUpdatesBestPriceAndHandlesMissing<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/25 Testing: OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::FastOrderBook>
+22/25 Test: OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.ModifyQtyDownPreservesTimePriority" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.ModifyQtyDownPreservesTimePriority
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.ModifyQtyDownPreservesTimePriority
+[       OK ] OrderBookTest/1.ModifyQtyDownPreservesTimePriority (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyQtyDownPreservesTimePriority<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/25 Testing: OrderBookTest.ModifyQtyUpLosesTimePriority<lob::FastOrderBook>
+23/25 Test: OrderBookTest.ModifyQtyUpLosesTimePriority<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.ModifyQtyUpLosesTimePriority" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.ModifyQtyUpLosesTimePriority
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.ModifyQtyUpLosesTimePriority
+[       OK ] OrderBookTest/1.ModifyQtyUpLosesTimePriority (1 ms)
+[----------] 1 test from OrderBookTest/1 (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyQtyUpLosesTimePriority<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/25 Testing: OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::FastOrderBook>
+24/25 Test: OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::FastOrderBook>
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=OrderBookTest/1.ModifyPriceAcrossSpreadGeneratesTrades" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::FastOrderBook>" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest/1.ModifyPriceAcrossSpreadGeneratesTrades
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest/1, where TypeParam = lob::FastOrderBook
+[ RUN      ] OrderBookTest/1.ModifyPriceAcrossSpreadGeneratesTrades
+[       OK ] OrderBookTest/1.ModifyPriceAcrossSpreadGeneratesTrades (2 ms)
+[----------] 1 test from OrderBookTest/1 (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::FastOrderBook>" end time: Nov 22 01:14 IST
+"OrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades<lob::FastOrderBook>" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/25 Testing: DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents
+25/25 Test: DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents" start time: Nov 22 01:14 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DifferentialFuzzTest
+[ RUN      ] DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents
+[       OK ] DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents (39 ms)
+[----------] 1 test from DifferentialFuzzTest (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents" end time: Nov 22 01:14 IST
+"DifferentialFuzzTest.FastMatchesNaiveAcross200kEvents" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 22 01:14 IST
