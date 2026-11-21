@@ -1,20 +1,20 @@
-Start testing: Nov 22 01:02 IST
+Start testing: Nov 22 01:09 IST
 ----------------------------------------------------------
-1/1 Testing: SetupTest.TypesCompile
-1/1 Test: SetupTest.TypesCompile
-Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=SetupTest.TypesCompile" "--gtest_also_run_disabled_tests"
+1/12 Testing: NaiveOrderBookTest.EmptyBookDefaults
+1/12 Test: NaiveOrderBookTest.EmptyBookDefaults
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.EmptyBookDefaults" "--gtest_also_run_disabled_tests"
 Directory: /Users/shubhj_777/quant-lob-sim/build
-"SetupTest.TypesCompile" start time: Nov 22 01:02 IST
+"NaiveOrderBookTest.EmptyBookDefaults" start time: Nov 22 01:09 IST
 Output:
 ----------------------------------------------------------
 Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
-Note: Google Test filter = SetupTest.TypesCompile
+Note: Google Test filter = NaiveOrderBookTest.EmptyBookDefaults
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from SetupTest
-[ RUN      ] SetupTest.TypesCompile
-[       OK ] SetupTest.TypesCompile (0 ms)
-[----------] 1 test from SetupTest (0 ms total)
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.EmptyBookDefaults
+[       OK ] NaiveOrderBookTest.EmptyBookDefaults (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,8 +23,305 @@ Note: Google Test filter = SetupTest.TypesCompile
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"SetupTest.TypesCompile" end time: Nov 22 01:02 IST
-"SetupTest.TypesCompile" time elapsed: 00:00:00
+"NaiveOrderBookTest.EmptyBookDefaults" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.EmptyBookDefaults" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 22 01:02 IST
+2/12 Testing: NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
+2/12 Test: NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume
+[       OK ] NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
+3/12 Test: NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice
+[       OK ] NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: NaiveOrderBookTest.PriceTimePriorityFIFO
+4/12 Test: NaiveOrderBookTest.PriceTimePriorityFIFO
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.PriceTimePriorityFIFO" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.PriceTimePriorityFIFO" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.PriceTimePriorityFIFO
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.PriceTimePriorityFIFO
+[       OK ] NaiveOrderBookTest.PriceTimePriorityFIFO (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.PriceTimePriorityFIFO" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.PriceTimePriorityFIFO" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: NaiveOrderBookTest.PartialFillAndRestRemainder
+5/12 Test: NaiveOrderBookTest.PartialFillAndRestRemainder
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.PartialFillAndRestRemainder" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.PartialFillAndRestRemainder" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.PartialFillAndRestRemainder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.PartialFillAndRestRemainder
+[       OK ] NaiveOrderBookTest.PartialFillAndRestRemainder (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.PartialFillAndRestRemainder" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.PartialFillAndRestRemainder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
+6/12 Test: NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting
+[       OK ] NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
+7/12 Test: NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest
+[       OK ] NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: NaiveOrderBookTest.FOKAllOrNothing
+8/12 Test: NaiveOrderBookTest.FOKAllOrNothing
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.FOKAllOrNothing" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.FOKAllOrNothing" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.FOKAllOrNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.FOKAllOrNothing
+[       OK ] NaiveOrderBookTest.FOKAllOrNothing (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.FOKAllOrNothing" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.FOKAllOrNothing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
+9/12 Test: NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing
+[       OK ] NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
+10/12 Test: NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority
+[       OK ] NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
+11/12 Test: NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.ModifyQtyUpLosesTimePriority
+[       OK ] NaiveOrderBookTest.ModifyQtyUpLosesTimePriority (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.ModifyQtyUpLosesTimePriority" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
+12/12 Test: NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
+Command: "/Users/shubhj_777/quant-lob-sim/build/lob_tests" "--gtest_filter=NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" "--gtest_also_run_disabled_tests"
+Directory: /Users/shubhj_777/quant-lob-sim/build
+"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" start time: Nov 22 01:09 IST
+Output:
+----------------------------------------------------------
+Running main() from /Users/shubhj_777/quant-lob-sim/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from NaiveOrderBookTest
+[ RUN      ] NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades
+[       OK ] NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades (0 ms)
+[----------] 1 test from NaiveOrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" end time: Nov 22 01:09 IST
+"NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 22 01:09 IST

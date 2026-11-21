@@ -1,15 +1,70 @@
 {
-  "tests": 1,
+  "tests": 12,
   "name": "AllTests",
   "testsuites": [
     {
-      "name": "SetupTest",
-      "tests": 1,
+      "name": "NaiveOrderBookTest",
+      "tests": 12,
       "testsuite": [
         {
-          "name": "TypesCompile",
+          "name": "EmptyBookDefaults",
           "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
-          "line": 5
+          "line": 6
+        },
+        {
+          "name": "RestingOrdersTrackBestPricesAndVolume",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 15
+        },
+        {
+          "name": "ExactLimitMatchExecutesAtMakerPrice",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 30
+        },
+        {
+          "name": "PriceTimePriorityFIFO",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 44
+        },
+        {
+          "name": "PartialFillAndRestRemainder",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 64
+        },
+        {
+          "name": "MarketOrderSweepsLevelsWithoutResting",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 76
+        },
+        {
+          "name": "IOCFillsAvailableAndDiscardsRest",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 89
+        },
+        {
+          "name": "FOKAllOrNothing",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 99
+        },
+        {
+          "name": "CancelUpdatesBestPriceAndHandlesMissing",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 114
+        },
+        {
+          "name": "ModifyQtyDownPreservesTimePriority",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 125
+        },
+        {
+          "name": "ModifyQtyUpLosesTimePriority",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 138
+        },
+        {
+          "name": "ModifyPriceAcrossSpreadGeneratesTrades",
+          "file": "\/Users\/shubhj_777\/quant-lob-sim\/tests\/test_order_book.cpp",
+          "line": 150
         }
       ]
     }

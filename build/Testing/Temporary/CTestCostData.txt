@@ -1,3 +1,15 @@
 lob_tests_NOT_BUILT 0 0
 SetupTest.TypesCompile 1 0.00898508
+NaiveOrderBookTest.EmptyBookDefaults 1 0.00709808
+NaiveOrderBookTest.RestingOrdersTrackBestPricesAndVolume 1 0.00411162
+NaiveOrderBookTest.ExactLimitMatchExecutesAtMakerPrice 1 0.00468063
+NaiveOrderBookTest.PriceTimePriorityFIFO 1 0.00383954
+NaiveOrderBookTest.PartialFillAndRestRemainder 1 0.00399717
+NaiveOrderBookTest.MarketOrderSweepsLevelsWithoutResting 1 0.00354171
+NaiveOrderBookTest.IOCFillsAvailableAndDiscardsRest 1 0.00350475
+NaiveOrderBookTest.FOKAllOrNothing 1 0.00376954
+NaiveOrderBookTest.CancelUpdatesBestPriceAndHandlesMissing 1 0.00412754
+NaiveOrderBookTest.ModifyQtyDownPreservesTimePriority 1 0.00355454
+NaiveOrderBookTest.ModifyQtyUpLosesTimePriority 1 0.00417225
+NaiveOrderBookTest.ModifyPriceAcrossSpreadGeneratesTrades 1 0.00389629
 ---
